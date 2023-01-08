@@ -227,6 +227,7 @@ void *epollEventLoop(void *useless) // the big loop used to control each bot asy
  
                                         clients[infd].connected = 1;
                                         //send(infd, "!* SCANNER ON\n", 14, MSG_NOSIGNAL);
+                                        //!send(infd, "| * Scanner ON\n")
                                 }
                                 continue;
                         }
