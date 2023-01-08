@@ -271,6 +271,7 @@ void *epollEventLoop(void *useless) // the big loop used to control each bot asy
                                                 if(strcmp(buf, "PONG") == 0)
                                                 {
                                                         //should really add some checking or something but meh
+                                                        // but not much meh
                                                         continue;
                                                 }
  
